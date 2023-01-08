@@ -48,7 +48,7 @@ function App() {
         <Formjs onEdit={onEdit} setOnEdit={setOnEdit} getUsers={getUsers}/>
         <Grid users={users} setUsers={setUsers} setOnEdit={setOnEdit}/>{/**Setando no grud**/}
       </Container>
-      <ToastContainer autoClose={3001} position={toast.POSITION.BOTTOM_LEFT} />
+      <ToastContainer autoClose={3001} position={toast.POSITION.BOTTOM_LEFT} className="toast-container" />
       <GlobalStyles />
 
     </>
